@@ -1,0 +1,104 @@
+@import '../../variables.scss';
+
+
+.card {
+    flex: 1;
+    min-width: 320px;
+    max-width: 400px;
+    height:  auto;
+    margin:  15px;
+
+    &__header {
+        margin-bottom: 15px;
+        display: flex;
+    }
+
+    &__update__details {
+        display: flex;
+        flex: 1;
+        text-align: right;
+        justify-content: space-between;
+        flex-direction: column;
+        color: #3D3C3C;
+    }
+
+    &__body{
+        padding: 5px;
+    }
+
+    &__section {
+        margin-bottom: 25px;
+        &__header {
+            display: flex;
+        }
+    }
+
+    &__title {
+        font-weight: bold;
+        letter-spacing: 0.8px;
+        flex: 1;
+        font-size: 0.7em;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    &__text {
+        display: flex;
+        flex:  1;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &__label {
+        order: 1;
+        letter-spacing: .5px;
+        font-weight: 100;
+        font-size: 0.8em;
+    }
+      
+    &__value {
+        font-size: 1.8em;
+        font-weight: 700;
+    }
+
+    &__bottom {
+        padding-bottom: 10px;
+    }
+
+}
+
+.red { color: #d50000; }
+.green { color: #00c853; }
+.pink { color: #f50057; }
+.purple { color: #9c27b0; }
+.blue { color: #304ffe; }
+.orange { color: #ff5722; }
+.indigo { color: #00b0ff; }
+.amber { color: #ffab00; }
+.teal { color: #20c997}
+.newpink { color: #fe346e; }
+.warning { color: #278ea5; }
+
+.country_name {
+    text-transform: uppercase;
+    font-size:  1.8em;
+    color: #9e9e9e;
+    font-weight: 700;
+    margin-top:10px;
+}
+
+.updated {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #8a8a8a;
+}
