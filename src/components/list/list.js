@@ -5,6 +5,7 @@ import { CardSection } from '../card/cardSection';
 
 import "./styles.scss";
 
+
 export const List = (props) => {
     const { data } = props;
 
